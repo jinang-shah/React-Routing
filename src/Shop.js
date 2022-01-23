@@ -11,7 +11,6 @@ function Shop() {
       const items=await data.json()
       console.log(items.data)
       setitems(items.data)
-      
   }  
 
   useEffect(()=>{
